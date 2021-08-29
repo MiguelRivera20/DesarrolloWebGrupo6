@@ -1,1 +1,102 @@
-<p>registro-detalle-habitacion works!</p>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="page-header">
+            <h2 class="pageheader-title">Detalle Habitacion</h2>
+            <div class="page-breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Habitaciones</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Detalle habitacion</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <!-- ============================================================== -->
+    <!-- validation form -->
+    <!-- ============================================================== -->
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="card">
+            <h5 class="card-header">Detalle Habitacion</h5>
+            <div class="card-body">
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-sm-4 col-lg-6">
+                            <label for="validationCustom01">Caracteristica tipo habitacion</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="ingrese caracteristica de la habitacion" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                       
+
+                    </div>
+
+                    <div class="form-row">
+                        
+                        
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-right">
+                            <button class="btn btn-primary" type="submit">Guardar</button>
+
+                            <button type="button" routerLink="/usuarios" class="btn waves-effect waves-light btn-secondary mr-2" ><i class="mr-2 mdi"></i>Limpiar</button>
+                        </div>
+                    </div>
+
+
+                  
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+
+  <div class="card-body">
+
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered first">
+                                <thead>
+                                    <tr>
+                                        <th>Caracteristica Tipo Habitacion</th>
+                                    
+                                        <th>Accion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Cama doble</td>
+                                        <td>
+                                            
+                                            <button      type="button" title="Eliminar"class="btn btn-secondary btn-sm mr-2"><i class="mdi mdi-delete"></i></button> 
+                                                            <button type="button" title="Editar" class="btn btn-secondary btn-sm mr-2" routerLink="/usuarios/registro-usuario"><i class="mdi mdi-account-edit"></i></button>
+            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vista al mar (de acuerdo a disponibilidad)</td>
+                                        <td>
+                                            
+                                            <button      type="button" title="Eliminar"class="btn btn-secondary btn-sm mr-2"><i class="mdi mdi-delete"></i></button> 
+                                                            <button type="button" title="Editar" class="btn btn-secondary btn-sm mr-2" routerLink="/usuarios/registro-usuario"><i class="mdi mdi-account-edit"></i></button>
+            
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody>
+                              
+                            </table>
+                        </div>
+
+                    </div>
+
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end validation form -->
+    <!-- ============================================================== -->
+</div>
