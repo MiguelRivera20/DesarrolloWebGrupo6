@@ -12,6 +12,7 @@ import { CheckinComponent } from './pages/checkin/checkin.component';
 import { ReservaComponent } from './pages/reserva/reserva.component';
 import { RegistroUsuariosComponent } from './pages/usuarios/registro-usuarios/registro-usuarios.component';
 import { RegistroReservaComponent } from './pages/reserva/registro-reserva/registro-reserva.component';
+import { RegistroCheckinComponent } from './pages/checkin/registro-checkin/registro-checkin.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { RegistroReservaComponent } from './pages/reserva/registro-reserva/regis
     CheckinComponent,
     ReservaComponent,
     RegistroUsuariosComponent,
-    RegistroReservaComponent
+    RegistroReservaComponent,
+    RegistroCheckinComponent
   ],
   imports: [
     BrowserModule,
