@@ -9,6 +9,7 @@ import { RegistroUsuariosComponent } from "./pages/usuarios/registro-usuarios/re
 import { UsuariosComponent } from "./pages/usuarios/usuarios.component";
 import { CheckinComponent } from "./pages/checkin/checkin.component";
 import { RegistroReservaComponent } from "./pages/reserva/registro-reserva/registro-reserva.component";
+import { RegistroCheckinComponent } from "./pages/checkin/registro-checkin/registro-checkin.component";
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
     { path: 'Habitaciones/detalle-habitacion', component: RegistroDetalleHabitacionComponent },
     { path:"Control_Habitaciones/Reserva", component: ReservaComponent},
     { path:'Control_Habitaciones/Check_in', component:CheckinComponent},
-    {path: 'Control_Habitaciones/Reserva/Registro_Reserva', component:RegistroReservaComponent}
+    {path: 'Control_Habitaciones/Reserva/Registro_Reserva', component:RegistroReservaComponent},
+    {path:'Control_Habitaciones/Check_in/registro_checkin', component:RegistroCheckinComponent}
     
     
 ];

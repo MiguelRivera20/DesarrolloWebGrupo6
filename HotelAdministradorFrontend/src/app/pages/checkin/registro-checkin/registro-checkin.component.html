@@ -1,1 +1,75 @@
-<p>registro-checkin works!</p>
+<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        <h5 class="card-header">Check In de Abitacion</h5>
+        <div class="card-body">
+            <form action="#" id="basicform" data-parsley-validate="">
+
+                <div class="form-group">
+                    <label for="inpuitFecha">Fecha de Registro</label>
+                      <div>   
+                        <input type="date" id="party" name="party" min="2010-01-01" max="2022-12-31" required>
+                        <span class="validity"></span>
+                      </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputDNI">DNI </label>
+                    <input id="inputDNI" type="DNI" name="DNI" data-parsley-trigger="change" required="" placeholder="Enter DNI" autocomplete="off" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputNombre">Nombres y Apellidos </label>
+                    <input id="inputNombre" type="Nombre" name="Nombre" data-parsley-trigger="change" required="" placeholder="Enter Name" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="inputReserva">Numero de Reserva </label>
+                    <input id="inputReserva" type="Reserva" name="Reserva" data-parsley-trigger="change" required="" placeholder="Enter Reserva" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="inputAbitacion">Numero de Abitacion </label>
+                    <input id="inputAbitacion" type="Abitacion" name="Abitacion" data-parsley-trigger="change" required="" placeholder="Enter Abitacion" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="inputCantidad">Cantidad de Personas </label>
+                    <input id="inputCantidad" type="Cantidad" name="Cantidad" data-parsley-trigger="change" required="" placeholder="Enter Cantidad" autocomplete="off" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputCheck-IN">Check-In </label>
+                    <div>   
+                        <input type="date" id="party" name="party" min="2010-01-01" max="2022-12-31" required>
+                        <input type="time">
+                        <span class="validity"></span>
+                      </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputCheck-Out">Check-Out </label>
+                    <div>   
+                        <input type="date" id="party" name="party" min="2010-01-01" max="2022-12-31" required>
+                        <input type="time">
+                        <span class="validity"></span>
+                      </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea formControlName="message" class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
+                        <label class="be-checkbox custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input"><span class="custom-control-label">Remember me</span>
+                        </label>
+                    </div>
+                    <div class="col-sm-6 pl-0">
+                        <p class="text-right">
+                            <button type="submit" class="btn btn-space btn-primary">Submit</button>
+                            <button class="btn btn-space btn-secondary">Cancel</button>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
