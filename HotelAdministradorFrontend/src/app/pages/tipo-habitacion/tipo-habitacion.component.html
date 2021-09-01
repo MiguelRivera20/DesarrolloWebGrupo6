@@ -1,1 +1,96 @@
-<p>tipo-habitacion works!</p>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="page-header">
+            <h2 class="pageheader-title">Tipo de Habitaci&oacute;n </h2>
+            <div class="page-breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Listado de Tipo de Habitaci&oacute;n</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <!-- ============================================================== -->
+    <!-- validation form -->
+    <!-- ============================================================== -->
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="card">
+            <h5 class="card-header">Listado de Tipo de Habitaci&oacute;n</h5>
+            <div class="card-body">
+                
+            <div class="row">
+              
+            <div class="col-sm-4 col-lg-3">
+                <div class="form-group">
+                    <label for="inputText3" class="col-form-label">Nombre tipo de habitaci&oacute;n</label>
+                    <input id="inputText3" type="text" class="form-control">
+                </div>
+            </div>
+           
+
+        
+
+        
+
+            </div>
+
+            <div class="row" >
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-right">
+
+                    <button type="button"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
+                    <button type="button" routerLink="/Control_Habitaciones/tipo-habitacion/registro-tipo-habitacion" class="btn waves-effect waves-light btn-primary"><i class="mr-2 ti-plus"></i>Nuevo</button>
+         <!--     <button type="button"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
+                <a type="button" routerLink="usuarios/registro-usuario" class="btn waves-effect waves-light btn-primary"><i class="mr-2 ti-plus"></i>Nuevo</a>
+                <button type="button" class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 mdi mdi-filter-remove-outline"></i>Ocultar</button>
+                <button type="button" class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-eraser"></i>Limpiar</button>
+                <button type="button" class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 mdi mdi-filter-outline"></i>Filtrar</button> -->
+            </div>
+            </div> 
+                
+         
+
+                <div class="table-responsive">
+                <table class="table table-striped table-bordered first">
+                    <thead>
+                        <tr>
+                            <th>Nombre tipo de habitaci&oacute;n</th>
+                            <th>Descripci&oacute;n de la habitaci&oacute;n</th>
+                            <th>Cantidad de hu&eacute;spedes</th>
+                            <th>Precio/Noche</th>
+                            <th>Accion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Suit Presidencial</td>
+                            <td>Suit presidencial</td>
+                            <td>4</td>
+                            <td>250</td>
+                            <td>
+                                
+                                <button      type="button" title="Eliminar"class="btn btn-secondary btn-sm mr-2"><i class="mdi mdi-delete"></i></button> 
+                                                <button type="button" title="Editar" class="btn btn-secondary btn-sm mr-2" routerLink="/Control_Habitaciones/tipo-habitacion/registro-tipo-habitacion"><i class="mdi mdi-account-edit"></i></button>
+
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                  
+                </table>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end validation form -->
+    <!-- ============================================================== -->
+</div>

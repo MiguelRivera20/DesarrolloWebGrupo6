@@ -2,13 +2,12 @@
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <div class="page-header">
-            <h2 class="pageheader-title">Usuarios</h2>
+            <h2 class="pageheader-title">Habitaciones </h2>
             <div class="page-breadcrumb">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Usuarios</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Registro Usuario</li>
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">listado Habitaci&oacute;n</a></li>
                     </ol>
                 </nav>
             </div>
@@ -23,123 +22,91 @@
     <!-- ============================================================== -->
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <div class="card">
-            <h5 class="card-header">Registro Usuario</h5>
+            <h5 class="card-header">Listado Habitaci&oacute;n</h5>
             <div class="card-body">
-                <form class="needs-validation" novalidate>
-                    <div class="row">
-                        <div class="col-sm-4 col-lg-6">
-                            <label for="validationCustom01">Nombres</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="ingrese nombre" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-lg-6">
-                            <label for="validationCustom02">Apellidos</label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellidos" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
+                
+            <div class="row">
+                <div class="col-sm-4 col-lg-3">
+                <div class="form-group">
+                    <label for="input-select">Tipo habitaci&oacute;n</label>
+                    <select class="form-control col-12" id="input-select">
+                        <option>Seleccione</option>
+                                    <option>Suit presidencial</option>
+                                    <option>Economica</option>
+                                    <option>Duplex</option> 
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="form-group">
+                    <label for="inputText3" class="col-form-label">N&uacute;mero de piso</label>
+                    <input id="inputText3" type="text" class="form-control">
+                </div>
+            </div>
+           
+            <div class="col-sm-4 col-lg-3">
+                <div class="form-group">
+                    <label for="input-select">Estado</label>
+                    <select class="form-control col-12" id="input-select">
+                        <option>Seleccione</option>
+                                    <option>Disponible</option>
+                                    <option>Ocupado</option>
+                    </select>
+                </div>
+            </div>
+        
 
-                        <div class="col-sm-4 col-lg-3">
-                            <div class="form-group">
-                                <label for="input-select">Tipo Documento</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>DNI</option>
-                                    <option>CE</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-lg-3">
-                            <label for="numeroDocumento01">Numero documento</label>
-                            <input type="text" class="form-control" id="numeroDocumento01" placeholder="Ingrese numero documento" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
+        
 
+            </div>
 
-                        <div class="col-sm-4 col-lg-3">
-                            <div class="form-group">
-                                <label for="input-select">Genero</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>Masculino</option>
-                                    <option>Femenino</option>
-                                </select>
-                            </div>
-                        </div>
+            <div class="row" >
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-right">
 
-                        <div class="col-sm-4 col-lg-3">
-                            <div class="form-group">
-                                <label>Fecha Nacimiento<small class="text-muted"> (dd/mm/yyyy) </small></label>
-                                <input type="text" class="form-control date-inputmask" id="fechaNacimiento" placeholder="">
-                            </div>
-                    </div>
+                    <button type="button"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
+                    <button type="button" routerLink="/habitaciones/habitacion/registro" class="btn waves-effect waves-light btn-primary"><i class="mr-2 ti-plus"></i>Nuevo</button>
+         <!--     <button type="button"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
+                <a type="button" routerLink="usuarios/registro-usuario" class="btn waves-effect waves-light btn-primary"><i class="mr-2 ti-plus"></i>Nuevo</a>
+                <button type="button" class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 mdi mdi-filter-remove-outline"></i>Ocultar</button>
+                <button type="button" class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-eraser"></i>Limpiar</button>
+                <button type="button" class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 mdi mdi-filter-outline"></i>Filtrar</button> -->
+            </div>
+            </div> 
+                
 
-                    <div class="col-sm-4 col-lg-6">
-                        <label for="ValidacionCorreo01">Correo</label>
-                        <input type="text" class="form-control" id="ValidacionCorreo01" placeholder="Ingrese correo" value="" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
+                <div class="table-responsive">
+                <table class="table table-striped table-bordered first">
+                    <thead>
+                        <tr>
+                            <th>Tipo Habitacion</th>
+                            <th>N&uacute;mero Habitacion</th>
+                            <th>N&uacute;mero de piso</th>
+                            <th>Estado</th>
+                    
+                            <th>Accion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Presidencial</td>
+                            <td>1</td>
+                            <td>2</td>
+                     
+                            <td>Disponible</td>
+                            <td>
+                                
+                                <button      type="button" title="Eliminar"class="btn btn-secondary btn-sm mr-2"><i class="mdi mdi-delete"></i></button> 
+                                                <button type="button" title="Editar" class="btn btn-secondary btn-sm mr-2" routerLink="/habitaciones/habitacion/registro"><i class="mdi mdi-account-edit"></i></button>
 
-
-
-                      
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-4 col-lg-3">
-                            <div class="form-group">
-                                <label for="input-select">Perfil</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>Administrador</option>
-                                    <option>Recepcionista</option>
-                                    <option>Supervisor</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4 col-lg-3">
-                            <label for="ValidacionUsuario01">Usuario</label>
-                            <input type="text" class="form-control" id="ValidacionUsuario01" placeholder="Ingrese nombre usuario" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4 col-lg-3">
-                            <div class="form-group">
-                                <label for="input-select">Estado</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>Activo</option>
-                                    <option>Inactivo</option>
-                                    <option>Bloqueado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
+                            </td>
+                        </tr>
                         
+                    </tbody>
+                  
+                </table>
+            </div>
 
-                    <div class="form-row">
-                        
-                        
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-right">
-                            <button class="btn btn-primary" type="submit">Registrar usuario</button>
 
-                            <button type="button" routerLink="/usuarios" class="btn waves-effect waves-light btn-secondary mr-2" ><i class="mr-2 mdi"></i>Cancelar</button>
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>

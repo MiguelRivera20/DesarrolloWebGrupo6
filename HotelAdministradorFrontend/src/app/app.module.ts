@@ -13,6 +13,8 @@ import { ReservaComponent } from './pages/reserva/reserva.component';
 import { RegistroUsuariosComponent } from './pages/usuarios/registro-usuarios/registro-usuarios.component';
 import { RegistroReservaComponent } from './pages/reserva/registro-reserva/registro-reserva.component';
 import { RegistroCheckinComponent } from './pages/checkin/registro-checkin/registro-checkin.component';
+import { RegistroTipoHabitacionComponent } from './pages/tipo-habitacion/registro-tipo-habitacion/registro-tipo-habitacion.component';
+import { RegistroHabitacionComponent } from './pages/habitaciones/registro-habitacion/registro-habitacion.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { RegistroCheckinComponent } from './pages/checkin/registro-checkin/regis
     ReservaComponent,
     RegistroUsuariosComponent,
     RegistroReservaComponent,
-    RegistroCheckinComponent
+    RegistroCheckinComponent,
+    RegistroTipoHabitacionComponent,
+    RegistroHabitacionComponent
   ],
   imports: [
     BrowserModule,
