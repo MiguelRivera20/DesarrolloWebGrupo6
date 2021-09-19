@@ -4,18 +4,18 @@ using System.Text;
 
 namespace DBEntity
 {
-    class PersonaEntity : BaseEntity
+    public class PersonaEntity : BaseEntity
     {
-        private int Co_Persona { get; set; }
-        private  int Co_Tipo_Persona { get; set; }
-        private int Co_Tipo_Doc { get; set; }
-        private string Tx_Numero_Documento { get; set; }
-        private string Tx_Nombre_Completo { get; set; }
-        private string Tx_Correo { get; set; }
-        private string Tx_Telefono { get; set; }
-        private string Tx_Direccion { get; set; }
-        private DateTime Fe_Nacimiento { get; set; }
-        private DateTime Fe_Registro { get; set; }
+        public int Co_Persona { get; set; }
+        public int Co_Tipo_Persona { get; set; }
+        public int Co_Tipo_Doc { get; set; }
+        public string Tx_Numero_Documento { get; set; }
+        public string Tx_Nombre_Completo { get; set; }
+        public string Tx_Correo { get; set; }
+        public string Tx_Telefono { get; set; }
+        public string Tx_Direccion { get; set; }
+        public DateTime Fe_Nacimiento { get; set; }
+        public DateTime Fe_Registro { get; set; }
 
     }
 }

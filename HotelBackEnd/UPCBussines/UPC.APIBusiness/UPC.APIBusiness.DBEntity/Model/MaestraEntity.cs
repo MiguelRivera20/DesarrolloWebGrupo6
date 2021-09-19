@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DBEntity
 {
-    class MaestraEntity
+    public class MaestraEntity
     {
         public int Co_Maestra { get; set; }
         public string Tx_Maestra { get; set; }
