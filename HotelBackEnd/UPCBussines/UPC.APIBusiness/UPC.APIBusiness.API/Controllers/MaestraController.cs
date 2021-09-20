@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace UPC.Business.API.Controllers
 {
     [Produces("application/json")]
-    [Route("api/project")]
+    [Route("api/maestra")]
     public class MaestraController : Controller
     {
 

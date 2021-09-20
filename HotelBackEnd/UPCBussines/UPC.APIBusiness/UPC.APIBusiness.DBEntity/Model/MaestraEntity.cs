@@ -16,5 +16,6 @@ namespace DBEntity
         public string Tx_Valor_General04 { get; set; }
         public string Tx_Valor_General05 { get; set; }
         public string Fl_Estado { get; set; }
+        public String datoNuevo { get; set; }// 01/01/2021
     }
 }

@@ -10,9 +10,9 @@ namespace DBContext
 {
     public class MaestraRepository : BaseRepository, IMaestraRepository
     {
-      public  List<MaestraEntity> GetMaestro(string maestro)
+      public BaseResponse  GetMaestro(string maestro)
         {
-
+            BaseResponse res = new BaseResponse();
             var lstMaestraEntity = new List<MaestraEntity>();
             try
             {
@@ -28,13 +28,31 @@ namespace DBContext
 
                     lstMaestraEntity = db.Query<MaestraEntity>(sql: sql, param: p,
                         commandType: CommandType.StoredProcedure).ToList();
+                    if (lstMaestraEntity != null)
+                    {
+                        res.isSuccess = true;
+                        res.errorCode = "0000";
+                        res.errorMessage = string.Empty;
+                        res.data = lstMaestraEntity;
+                    } else
+                    {
+                        res.isSuccess = true;
+                        res.errorCode = "0000";
+                        res.errorMessage = string.Empty;
+                        res.data = null;
+                    }
+                  
                 }
             }
             catch (Exception e)
             {
-                throw new Exception(e.Message);
+                res.isSuccess = false;
+                res.errorCode = "0001";
+                res.errorMessage = e.Message;
+                res.data = null;
+              //  throw new Exception(e.Message);
             }
-            return lstMaestraEntity;
+            return res;
         }
     }
 }

@@ -49,9 +49,12 @@ namespace API
 
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
+             
                 builder.AllowAnyOrigin()
                        .AllowAnyMethod()
                        .AllowAnyHeader()
+                       .WithOrigins("http://localhost:4200");
+
                       ;
             }));
 
@@ -124,6 +127,8 @@ namespace API
             services.AddTransient<IProjectRepository, ProjectRepository>();
 
             services.AddTransient<IMaestraRepository, MaestraRepository>();
+
+            services.AddTransient<IPersonaRepository, PersonaRepository>();
             // ----------------------------------------------------------------
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();

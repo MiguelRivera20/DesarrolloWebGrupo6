@@ -14,7 +14,7 @@ namespace DBEntity
         public string Tx_Correo { get; set; }
         public string Tx_Telefono { get; set; }
         public string Tx_Direccion { get; set; }
-        public DateTime Fe_Nacimiento { get; set; }
+        public DateTime Fe_Naciemiento { get; set; }
         public DateTime Fe_Registro { get; set; }
 
     }

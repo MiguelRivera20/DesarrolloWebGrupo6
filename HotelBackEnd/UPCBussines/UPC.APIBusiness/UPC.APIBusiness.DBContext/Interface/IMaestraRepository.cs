@@ -7,6 +7,6 @@ namespace DBContext
 {
     public interface IMaestraRepository
     {
-        List<MaestraEntity> GetMaestro(string maestro);
+        BaseResponse GetMaestro(string maestro);
     }
 }
