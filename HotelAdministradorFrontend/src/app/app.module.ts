@@ -15,7 +15,7 @@ import { RegistroReservaComponent } from './pages/reserva/registro-reserva/regis
 import { RegistroCheckinComponent } from './pages/checkin/registro-checkin/registro-checkin.component';
 import { RegistroTipoHabitacionComponent } from './pages/tipo-habitacion/registro-tipo-habitacion/registro-tipo-habitacion.component';
 import { RegistroHabitacionComponent } from './pages/habitaciones/registro-habitacion/registro-habitacion.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -36,6 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     RegistroHabitacionComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,

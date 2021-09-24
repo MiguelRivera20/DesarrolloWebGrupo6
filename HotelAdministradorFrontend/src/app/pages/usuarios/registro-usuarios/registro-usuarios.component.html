@@ -47,8 +47,8 @@
                                 <label for="input-select">Tipo Documento</label>
                                 <select class="form-control" id="input-select">
                                     <option>Seleccione</option>
-                                    <option>DNI</option>
-                                    <option>CE</option>
+                                    <option *ngFor="let item of lstTipoDocumento">{{item.tx_Descripcion}}</option>
+                                 
                                 </select>
                             </div>
                         </div>

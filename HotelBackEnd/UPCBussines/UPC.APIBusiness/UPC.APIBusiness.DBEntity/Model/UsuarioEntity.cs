@@ -11,5 +11,6 @@ namespace DBEntity
         public int Co_Perfil { get; set; }
         public DateTime Fe_Registro { get; set; }
         public string Fl_Estado { get; set; }
+        public string Username { get; set; }
     }
 }
