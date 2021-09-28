@@ -23,7 +23,7 @@ namespace DBContext
             {
                 using (var db = GetSqlConnection())
                 {
-                    const string sql = @"Usp_InsertarReserva";
+                    const string sql = @"Usp_BuscarReserva";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@CO_RESERVA", value: reserva.Co_Reserva, dbType: DbType.Int32, direction: ParameterDirection.Input);
