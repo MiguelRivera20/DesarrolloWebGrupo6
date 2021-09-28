@@ -26,3 +26,13 @@ D:\universidad\Ciclo3\DesarrolloWeb\TrabajoFinal\FuenteGrupo6Git\DesarrolloWebGr
 D:\universidad\Ciclo3\DesarrolloWeb\TrabajoFinal\FuenteGrupo6Git\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.csproj.CoreCompileInputs.cache
 D:\universidad\Ciclo3\DesarrolloWeb\TrabajoFinal\FuenteGrupo6Git\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
 D:\universidad\Ciclo3\DesarrolloWeb\TrabajoFinal\FuenteGrupo6Git\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.deps.json
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.csproj.AssemblyReference.cache
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.AssemblyInfoInputs.cache
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.AssemblyInfo.cs
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.csproj.CoreCompileInputs.cache
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb

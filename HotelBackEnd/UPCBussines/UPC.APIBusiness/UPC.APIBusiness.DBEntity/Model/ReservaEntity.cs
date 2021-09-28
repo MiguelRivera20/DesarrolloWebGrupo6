@@ -18,5 +18,8 @@ namespace DBEntity
         public DateTime Fe_Registro { get; set; }
         public string Fl_Estado { get; set; }
 
+        /*sdasdasdasdas
+         */
+
     }
 }

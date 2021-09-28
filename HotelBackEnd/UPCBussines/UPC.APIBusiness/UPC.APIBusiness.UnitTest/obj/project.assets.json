@@ -9166,11 +9166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
+      "projectUniqueName": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
       "projectName": "UPC.APIBusiness.UnitTest",
-      "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
+      "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\obj\\",
+      "outputPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9187,11 +9187,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
-              "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj"
+            "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
+              "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj"
             },
-            "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
-              "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
+            "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
+              "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\TrabajoFinalBackend\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
             }
           }
         }
