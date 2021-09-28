@@ -1,9 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>UPC.APIBusiness.DBEntity</RootNamespace>
     <AssemblyName>UPC.APIBusiness.DBEntity</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Model\NewFolder\**" />
+    <EmbeddedResource Remove="Model\NewFolder\**" />
+    <None Remove="Model\NewFolder\**" />
+  </ItemGroup>
 
 </Project>

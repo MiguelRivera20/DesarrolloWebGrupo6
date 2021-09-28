@@ -9,6 +9,6 @@ namespace DBContext
     {
         BaseResponse RegistroUsuario(UsuarioEntity usuario);
         BaseResponse GetUsuario(UsuarioEntity usuario);
-
+        BaseResponse GetUsuarioPorDocumentoPersona(int tipoDocumento, string numeroDocumento);
     }
 }

@@ -12,6 +12,7 @@ namespace UPC.Business.API.Controllers
 {
     [Produces("application/json")]
     [Route("api/persona")]
+    [ApiController]
     public class PersonaController : Controller
     {
 

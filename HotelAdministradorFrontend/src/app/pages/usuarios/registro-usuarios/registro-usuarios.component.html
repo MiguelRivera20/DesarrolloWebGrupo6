@@ -21,53 +21,48 @@
     <!-- ============================================================== -->
     <!-- validation form -->
     <!-- ============================================================== -->
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
         <div class="card">
             <h5 class="card-header">Registro Usuario</h5>
             <div class="card-body">
-                <form class="needs-validation" novalidate>
-                    <div class="row">
-                        <div class="col-sm-4 col-lg-6">
-                            <label for="validationCustom01">Nombres</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="ingrese nombre" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-lg-6">
-                            <label for="validationCustom02">Apellidos</label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellidos" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
+                <form [formGroup]="registroUsuarioForm" class="needs-validation" novalidate>
+                    <div class="row" formGroupName="persona">
+                        
+                        
 
                         <div class="col-sm-4 col-lg-3">
                             <div class="form-group">
                                 <label for="input-select">Tipo Documento</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option *ngFor="let item of lstTipoDocumento">{{item.tx_Descripcion}}</option>
+                                <select class="form-control" id="tipoDocumentoPersona" formControlName="co_Tipo_Doc" id="input-select" convert-to-number>
+                                    <option value="0">Seleccione</option>
+                                    <option *ngFor="let item of lstTipoDocumento" value="{{item.nu_Codigo}}">{{item.tx_Descripcion}}</option>
                                  
                                 </select>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-lg-3">
+                        <div class="col-sm-4 col-lg-4">
                             <label for="numeroDocumento01">Numero documento</label>
-                            <input type="text" class="form-control" id="numeroDocumento01" placeholder="Ingrese numero documento" value="" required>
+                            <input type="text" class="form-control" id="numeroDocumento01" (change)="__GetConsultarUsuarioPorDatosPersona()" formControlName="tx_Numero_Documento"  placeholder="Ingrese numero documento" value="" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
 
+                        <div class="col-sm-4 col-lg-7">
+                            <label for="nombrePersonaUsuario">Nombres completo</label>
+                            <input type="text" class="form-control" formControlName="tx_Nombre_Completo" id="nombrePersonaUsuario" placeholder="ingrese nombre" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
 
                         <div class="col-sm-4 col-lg-3">
                             <div class="form-group">
                                 <label for="input-select">Genero</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>Masculino</option>
-                                    <option>Femenino</option>
+                                <select class="form-control" formControlName="co_Genero" id="input-select">
+                                    <option value="0">Seleccione</option>
+                                    <option value="1" >Masculino</option>
+                                    <option value="2">Femenino</option>
                                 </select>
                             </div>
                         </div>
@@ -78,10 +73,10 @@
                                 <input type="text" class="form-control date-inputmask" id="fechaNacimiento" placeholder="">
                             </div>
                     </div>
-
+                    
                     <div class="col-sm-4 col-lg-6">
-                        <label for="ValidacionCorreo01">Correo</label>
-                        <input type="text" class="form-control" id="ValidacionCorreo01" placeholder="Ingrese correo" value="" required>
+                        <label for="tx_Correo">Correo</label>
+                        <input type="text" class="form-control" id="tx_Correo" formControlName="tx_Correo" placeholder="Ingrese correo" value="" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -97,18 +92,18 @@
                         <div class="col-sm-4 col-lg-3">
                             <div class="form-group">
                                 <label for="input-select">Perfil</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>Administrador</option>
-                                    <option>Recepcionista</option>
-                                    <option>Supervisor</option>
+                                <select class="form-control" formControlName="co_Perfil" id="input-select">
+                                    <option value="0">Seleccione</option>
+                                    <option value="1">Administrador</option>
+                                    <option value="2">Recepcionista</option>
+                                    <option value="3">Supervisor</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="col-sm-4 col-lg-3">
-                            <label for="ValidacionUsuario01">Usuario</label>
-                            <input type="text" class="form-control" id="ValidacionUsuario01" placeholder="Ingrese nombre usuario" value="" required>
+                            <label for="usuario01">Usuario</label>
+                            <input type="text" class="form-control" id="usuario01" formControlName="tx_Username" placeholder="Ingrese nombre usuario" value="" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -117,11 +112,11 @@
                         <div class="col-sm-4 col-lg-3">
                             <div class="form-group">
                                 <label for="input-select">Estado</label>
-                                <select class="form-control" id="input-select">
-                                    <option>Seleccione</option>
-                                    <option>Activo</option>
-                                    <option>Inactivo</option>
-                                    <option>Bloqueado</option>
+                                <select class="form-control" formControlName="co_Situacion" id="input-select">
+                                    <option value="0">Seleccione</option>
+                                    <option value="1">Activo</option>
+                                    <option value="2">Inactivo</option>
+                                    <option value="3">Bloqueado</option>
                                 </select>
                             </div>
                         </div>
@@ -132,10 +127,9 @@
 
                     <div class="form-row">
                         
-                        
+                        {{registroUsuarioForm.value | json}}
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-right">
-                            <button class="btn btn-primary" type="submit">Registrar usuario</button>
-
+                            <button class="btn btn-primary" (click)="__onSubmit()" >Registrar usuario</button>
                             <button type="button" routerLink="/usuarios" class="btn waves-effect waves-light btn-secondary mr-2" ><i class="mr-2 mdi"></i>Cancelar</button>
                         </div>
                     </div>
