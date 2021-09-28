@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {}
+    "C:\\UPC\\Nueva carpeta\\grupo\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {}
   },
   "projects": {
-    "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+    "C:\\UPC\\Nueva carpeta\\grupo\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+        "projectUniqueName": "C:\\UPC\\Nueva carpeta\\grupo\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
         "projectName": "UPC.APIBusiness.DBEntity",
-        "projectPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "D:\\universidad\\Ciclo3\\DesarrolloWeb\\TrabajoFinal\\FuenteGrupo6Git\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",
+        "projectPath": "C:\\UPC\\Nueva carpeta\\grupo\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "C:\\UPC\\Nueva carpeta\\grupo\\DesarrolloWebGrupo6\\HotelBackEnd\\UPCBussines\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
