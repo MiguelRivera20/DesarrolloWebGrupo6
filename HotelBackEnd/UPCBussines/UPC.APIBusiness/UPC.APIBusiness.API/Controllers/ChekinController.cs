@@ -55,7 +55,7 @@ namespace UPC.Business.API.Controllers
         public ActionResult GetProject(int id)
         {
             var ret = _ProjectRepository.GetProject(id);
-            return Json(ret);
+            return Json(ret); hola munbo cruel 
         }*/
 
 
