@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DBEntity
 
-namespace UPC.APIBusiness.DBContext.Interface
+namespace DBContext
 {
-    class IChekinRepository
+    public interface IChekinRepository
     {
+        BaseResponse ChekinPersona(CheckInEntity checkIn);
+
+        BaseResponse GetChekin(CheckInEntity checkIn);
     }
 }

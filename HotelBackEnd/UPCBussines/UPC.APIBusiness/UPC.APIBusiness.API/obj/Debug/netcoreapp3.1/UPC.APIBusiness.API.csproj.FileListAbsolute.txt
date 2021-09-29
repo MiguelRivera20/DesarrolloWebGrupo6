@@ -289,3 +289,12 @@ C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIB
 C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.dll
 C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.pdb
 C:\UPC\Nueva carpeta\grupo\DesarrolloWebGrupo6\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.genruntimeconfig.cache
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.csproj.AssemblyReference.cache
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.AssemblyInfoInputs.cache
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.AssemblyInfo.cs
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.csproj.CoreCompileInputs.cache
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.MvcApplicationPartsAssemblyInfo.cs
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.MvcApplicationPartsAssemblyInfo.cache
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.dll
+D:\UPC\Desarrollo Web\Proyect\HotelBackEnd\UPCBussines\UPC.APIBusiness\UPC.APIBusiness.API\obj\Debug\netcoreapp3.1\UPC.APIBusiness.API.pdb

@@ -17,6 +17,7 @@ namespace DBEntity
         public int Nu_Tipo_Pago { get; set; }
         public DateTime Fe_Registro { get; set; }
         public string Fl_Estado { get; set; }
+        public int CO_Check_In { get; set; }
 
         /*sdasdasdasdas
          */
