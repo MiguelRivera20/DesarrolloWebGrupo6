@@ -22,7 +22,7 @@ namespace DBContext
                     const string sql = @"Usp_BuscarChekin";
                     
                     var p = new DynamicParameters();
-                    p.Add(name: "@CO_Chekin", value: checkIn.Co_Chekin, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@CO_Chekin", value: checkIn.Co_Check_In, dbType: DbType.Int32, direction: ParameterDirection.Input);
                     p.Add(name: "@CO_CLIENTE", value: checkIn.Co_Cliente, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
                     personaEntity = db.Query<CheckInEntity>(sql: sql, param: p, commandType: CommandType.StoredProcedure).FirstOrDefault();

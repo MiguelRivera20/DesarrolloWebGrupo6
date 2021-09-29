@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DBEntity
+using DBEntity;
 
 namespace DBContext
 {

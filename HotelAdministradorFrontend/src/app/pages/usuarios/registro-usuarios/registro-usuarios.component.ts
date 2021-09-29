@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 import { JsMaestra } from 'src/app/clases/JsMaestra';
 import { MaestraService } from 'src/app/services/maestra.service';
 import { UsuarioService } from 'src/app/services/usuario.service';
@@ -112,7 +112,33 @@ export class RegistroUsuariosComponent implements OnInit {
       console.log(this.lstTipoDocumento);
     })
   }
+  __GetConsultarUsuarioPorDatosPersonav2(tipoDoc: any, numDoc: any) {
+    
 
+    this.us.__getUsuarioPorDocumentosPersona(tipoDoc,numDoc).subscribe((rest: any) => {
+     // this.lstTipoDocumento =  rest.data;
+      if (rest.isSuccess && rest.data != null) {
+        this.__poblarInfoRegistroUsuario(
+          rest.data.co_Tipo_Doc
+        , rest.data.tx_Numero_Documento
+        , rest.data.tx_Nombre_Completo
+        , rest.data.tx_Correo
+        , rest.data.tx_Telefono
+        , rest.data.tx_Direccion
+        , rest.data.co_Genero
+    
+        , rest.data.co_Usuario
+        , rest.data.co_Persona
+        , rest.data.co_Perfil
+        , rest.data.tx_Username
+        , rest.data.co_Situacion
+        ,''
+       );
+      }
+    
+      
+    })
+  }
   __GetConsultarUsuarioPorDatosPersona() {
     
 
@@ -160,6 +186,11 @@ export class RegistroUsuariosComponent implements OnInit {
    // this.registroUsuarioForm.controls['persona.co_Tipo_Doc'].setValue("2");
 
    // console.log(this.registroUsuarioForm.getRawValue().persona.co_Tipo_Doc)
+   this.ar.params.subscribe((params: Params) => {
+      if(params.tipoDoc != null && params.numDoc != null){
+        this.__GetConsultarUsuarioPorDatosPersonav2(params.tipoDoc,params.numDoc);
+      }
+   });
     this.__getMaestraTipoDocumento('TIPO_DOCUMENTO');
  
   }

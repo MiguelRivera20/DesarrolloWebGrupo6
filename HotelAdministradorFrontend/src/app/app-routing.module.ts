@@ -20,6 +20,7 @@ const routes: Routes = [
     { path: 'inicio', component: InicioComponent },
     { path: 'usuarios', component: UsuariosComponent },
     { path: 'usuarios/registro-usuario', component: RegistroUsuariosComponent },
+    { path: 'usuarios/registro-usuario/:tipoDoc/:numDoc', component: RegistroUsuariosComponent },
     { path: 'Habitaciones/detalle-habitacion', component: RegistroDetalleHabitacionComponent },
     { path:"Control_Habitaciones/Reserva", component: ReservaComponent},
     { path:'Control_Habitaciones/Check_in', component:CheckinComponent},
