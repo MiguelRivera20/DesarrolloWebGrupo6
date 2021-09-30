@@ -28,18 +28,18 @@
             <div class="row">
                 <div class="col-sm-4 col-lg-3">
                 <div class="form-group">
-                    <label for="input-select">Tipo usuario</label>
-                    <select class="form-control col-12" id="input-select">
-                        <option>Seleccione</option>
-                                    <option>Administrador</option>
-                                    <option>Recepcionista</option>
-                                    <option>Supervisor</option> 
+                    <label for="input-select1">Tipo usuario</label>
+                    <select class="form-control col-12"  [(ngModel)]="prmUsuarioFiltro.co_Perfil" id="input-select1">
+                        <option value="0">Seleccione</option>
+                                    <option value="1">Administrador</option>
+                                    <option value="2">Recepcionista</option>
+                                    <option value="3">Supervisor</option> 
                     </select>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3">
                 <div class="form-group">
-                    <label for="inputText3" class="col-form-label">Nombre usuario</label>
+                    <label for="inputText3"  [(ngModel)]="prmUsuarioFiltro.tx_Username" class="col-form-label">Nombre usuario</label>
                     <input id="inputText3" type="text" class="form-control">
                 </div>
             </div>
@@ -54,7 +54,7 @@
             <div class="row" >
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-right">
 
-                    <button type="button"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
+                    <button type="button" (click)="__ListarUsuariosPorFiltro()"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
                     <button type="button" routerLink="/usuarios/registro-usuario" class="btn waves-effect waves-light btn-primary"><i class="mr-2 ti-plus"></i>Nuevo</button>
          <!--     <button type="button"  class="btn waves-effect waves-light btn-secondary mr-2"><i class="mr-2 ti-search"></i>Buscar</button>
                 <a type="button" routerLink="usuarios/registro-usuario" class="btn waves-effect waves-light btn-primary"><i class="mr-2 ti-plus"></i>Nuevo</a>
@@ -86,7 +86,7 @@
                             <td>{{item.tx_Situacion_Nombre}}</td>
                             <td>
                                 
-                                <button      type="button" title="Eliminar"class="btn btn-secondary btn-sm mr-2" data-toggle="modal" data-target="#exampleModal"><i class="mdi mdi-delete"></i></button> 
+                                <button      type="button" title="Eliminar"class="btn btn-secondary btn-sm mr-2" (click)="__eliminarUsuario(item)" data-toggle="modal" data-target="#exampleModal"><i class="mdi mdi-delete"></i></button> 
                                                 <button type="button" title="Editar" class="btn btn-secondary btn-sm mr-2" routerLink="/usuarios/registro-usuario/{{item.co_Tipo_Doc}}/{{item.tx_Numero_Documento}}"><i class="mdi mdi-account-edit"></i></button>
 
                             </td>
@@ -119,7 +119,7 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+         Desea eliminar al usuario {{prmUsuarioEliminar.tx_Username}}
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

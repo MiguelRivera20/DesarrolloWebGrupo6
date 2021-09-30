@@ -82,10 +82,10 @@ namespace DBContext
                     p.Add(name: "@TX_CORREO", value: persona.Tx_Correo, dbType: DbType.String, direction: ParameterDirection.Input);
                     p.Add(name: "@TX_TELEFONO", value: persona.Tx_Telefono, dbType: DbType.String, direction: ParameterDirection.Input);
                     p.Add(name: "@TX_DIRECCION", value: persona.Tx_Direccion, dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@FE_NACIEMIENTO", value: "", dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@FE_NACIEMIENTO", value: persona.Fe_Naciemiento_Str, dbType: DbType.String, direction: ParameterDirection.Input);
                     //      p.Add(name: "@FE_REGISTRO", value: 1, dbType: DbType.Int32, direction: ParameterDirection.Input);
                     p.Add(name: "@CO_USUARIO", value: 1, dbType: DbType.Int32, direction: ParameterDirection.Input);
-
+                    p.Add(name: "@CO_GENERO", value: persona.Co_Genero, dbType: DbType.Int32, direction: ParameterDirection.Input);
                     var data = db.Query<PersonaEntity>(sql: sql, param: p, commandType: CommandType.StoredProcedure)
                         .FirstOrDefault();
 

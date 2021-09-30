@@ -16,6 +16,8 @@ namespace DBEntity
         public string Tx_Direccion { get; set; }
         public DateTime Fe_Naciemiento { get; set; }
 
+        public string Fe_Naciemiento_Str { get; set; }
+
         public int Co_Genero { get; set; }
         // public DateTime Fe_Registro { get; set; }
 

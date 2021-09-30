@@ -14,7 +14,9 @@ export class UsuariosComponent implements OnInit {
     co_Perfil:0,
     tx_Username:''
   };
+  prmUsuarioFiltro = new  JsUsuarioPersona();
   //  lstTipoDocumento : JsMaestra[] = [];
+  prmUsuarioEliminar = new JsUsuarioPersona();
   listaUsuario: JsUsuarioPersona[] = [];
   constructor(
     private ar: ActivatedRoute,
@@ -24,12 +26,16 @@ export class UsuariosComponent implements OnInit {
 
   __ListarUsuariosPorFiltro() {
    
-
-    this.us.__listarUsuariosPorfiltro(1,'').subscribe((rest: any) => {
+console.log(this.prmUsuarioFiltro.co_Perfil);
+console.log(this.prmUsuarioFiltro.tx_Username);
+    this.us.__listarUsuariosPorfiltro(this.prmUsuarioFiltro.co_Perfil,this.prmUsuarioFiltro.tx_Username).subscribe((rest: any) => {
       this.listaUsuario = rest.data;
       console.log(this.listaUsuario);
      // this.lstTipoDocumento =  rest.data;
         });
+    }
+    __eliminarUsuario(prmData: any){
+      this.prmUsuarioEliminar = prmData;
     }
 
   ngOnInit(): void {

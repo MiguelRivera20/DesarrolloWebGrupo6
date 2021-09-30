@@ -24,7 +24,7 @@ export class RegistroUsuariosComponent implements OnInit {
       tx_Correo: ['', Validators.required],
       tx_Telefono: [''],
       tx_Direccion: [''],
-     // fe_Naciemiento: [''],
+      fe_Naciemiento_Str: [''],
       co_Genero: [0, Validators.pattern("^[0-9]*$")]
       
     }),
